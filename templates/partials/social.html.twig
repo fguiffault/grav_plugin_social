@@ -1,0 +1,9 @@
+<ul class="list-inline text-center d-flex justify-content-center align-items-center m-0">
+    {% for name, values in social_buttons %}
+        {% if values.enabled %}
+            <li class="p-2 list-inline-item">
+                <a title="{{ values.label }}" target="_blank" href="{{ values.url }}" class="" /><i class="fab {{ (style) ? values.icon : values.square }} fa-lg"></i></a>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>

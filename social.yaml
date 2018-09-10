@@ -1,0 +1,39 @@
+enabled: true
+style: true
+buttons:
+    facebook:
+        enabled: true
+        icon: 'fa-facebook-f'
+        square: 'fa-facebook-square'
+        label: 'Facebook'
+        url: 'https://www.facebook.fr'
+    twitter:
+        enabled: true
+        icon: 'fa-twitter'
+        square: 'fa-twitter-square'
+        label: 'Twitter'
+        url: ''
+    youtube:
+        enabled: true
+        icon: 'fa-youtube'
+        square: 'fa-youtube-square'
+        label: 'Youtube'
+        url: ''
+    github:
+        enabled: true
+        icon: 'fa-github'
+        square: 'fa-github-square'
+        label: 'Github'
+        url: ''
+    slack:
+        enabled: true
+        icon: 'fa-slack-hash'
+        square: 'fa-slack'
+        label: Slack
+        url: https://softeam-ouest.slack.com
+    googleplus:
+        enabled: true
+        icon: 'fa-google-plus-g'
+        square: 'fa-google-plus-square'
+        label: 'Google+'
+        url: ''

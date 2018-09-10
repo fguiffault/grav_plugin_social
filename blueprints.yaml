@@ -1,0 +1,246 @@
+name: Social
+version: 0.1.0
+description: Display social buttons.
+icon: plug
+author:
+  name: fguiffault
+  email: florian.guiffault@softeam.fr
+homepage: https://github.com/fguiffault/grav-plugin-social
+demo: http://demo.yoursite.com
+keywords: grav, plugin, etc
+bugs: https://github.com/fguiffault/grav-plugin-social/issues
+docs: https://github.com/fguiffault/grav-plugin-social/blob/develop/README.md
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+    style:
+        type: toggle
+        label: Display type
+        default: 1
+        options:
+            1: Icon
+            0: Square
+        validate:
+            type: bool
+
+    Facebook:
+        type: section
+        title: Facebook
+        underline: true
+    buttons.facebook.enabled:
+        type: toggle
+        label: Facebook button
+        highlight: 1
+        default: 1
+        options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED
+        validate:
+            type: bool
+    buttons.facebook.label:
+        type: text
+        label: Facebook button label
+        validate:
+            type: text
+    buttons.facebook.icon:
+        type: text
+        label: Facebook Fontawesome Icon
+        validate:
+            type: text
+    buttons.facebook.square:
+        type: text
+        label: Facebook Fontawesome Square
+        validate:
+            type: text
+    buttons.facebook.url:
+        type: text
+        label: Facebook URL
+        validate:
+            type: text
+
+    Twitter:
+        type: section
+        title: Twitter
+        underline: true
+    buttons.twitter.enabled:
+        type: toggle
+        label: Twitter button
+        highlight: 1
+        default: 1
+        options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED
+        validate:
+            type: bool
+    buttons.twitter.label:
+        type: text
+        label: Twitter button label
+        validate:
+            type: text
+    buttons.twitter.icon:
+        type: text
+        label: Twitter Fontawesome Icon
+        validate:
+            type: text
+    buttons.twitter.square:
+        type: text
+        label: Twitter Fontawesome Square
+        validate:
+            type: text
+    buttons.twitter.url:
+        type: text
+        label: Twitter URL
+        validate:
+            type: text
+
+    Youtube:
+        type: section
+        title: Youtube
+        underline: true
+    buttons.youtube.enabled:
+        type: toggle
+        label: Youtube button
+        highlight: 1
+        default: 1
+        options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED
+        validate:
+            type: bool
+    buttons.youtube.label:
+        type: text
+        label: Youtube button label
+        validate:
+            type: text
+    buttons.youtube.icon:
+        type: text
+        label: Youtube Fontawesome Icon
+        validate:
+            type: text
+    buttons.youtube.square:
+        type: text
+        label: Youtube Fontawesome Square
+        validate:
+            type: text
+    buttons.youtube.url:
+        type: text
+        label: Youtube URL
+        validate:
+            type: text
+
+    Github:
+        type: section
+        title: Github
+        underline: true
+    buttons.github.enabled:
+        type: toggle
+        label: Github button
+        highlight: 1
+        default: 1
+        options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED
+        validate:
+            type: bool
+    buttons.github.label:
+        type: text
+        label: Github button label
+        validate:
+            type: text
+    buttons.github.icon:
+        type: text
+        label: Github Fontawesome Icon
+        validate:
+            type: text
+    buttons.github.square:
+        type: text
+        label: Github Fontawesome Square
+        validate:
+            type: text
+    buttons.github.url:
+        type: text
+        label: Github URL
+        validate:
+            type: text
+
+    Slack:
+        type: section
+        title: Slack
+        underline: true
+    buttons.slack.enabled:
+        type: toggle
+        label: Slack button
+        highlight: 1
+        default: 1
+        options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED
+        validate:
+            type: bool
+    buttons.slack.label:
+        type: text
+        label: Slack button label
+        validate:
+            type: text
+    buttons.slack.icon:
+        type: text
+        label: Slack Fontawesome Icon
+        validate:
+            type: text
+    buttons.slack.square:
+        type: text
+        label: Slack Fontawesome Square
+        validate:
+            type: text
+    buttons.slack.url:
+        type: text
+        label: Slack URL
+        validate:
+            type: text
+
+    GooglePlus:
+        type: section
+        title: Google+
+        underline: true
+    buttons.googleplus.enabled:
+        type: toggle
+        label: Google+ button
+        highlight: 1
+        default: 1
+        options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED
+        validate:
+            type: bool
+    buttons.googleplus.label:
+        type: text
+        label: Google+ button label
+        validate:
+            type: text
+    buttons.googleplus.icon:
+        type: text
+        label: Google+ Fontawesome Icon
+        validate:
+            type: text
+    buttons.googleplus.square:
+        type: text
+        label: Google+ Fontawesome Square
+        validate:
+            type: text
+    buttons.googleplus.url:
+        type: text
+        label: Google+ URL
+        validate:
+            type: text
